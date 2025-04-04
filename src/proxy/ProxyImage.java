@@ -21,3 +21,4 @@ public class ProxyImage implements Image {
         realImage.displayFullImage();
     }
 }
+

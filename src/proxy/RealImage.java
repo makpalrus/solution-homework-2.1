@@ -22,3 +22,4 @@ public class RealImage implements Image {
         System.out.println("Displaying high-res image: " + filename);
     }
 }
+

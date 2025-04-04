@@ -11,5 +11,12 @@ public class MarkerFactory {
         }
         return markers.get(type);
     }
+    public static void clearUnusedMarkers() {
+        markers.clear();
+    }
+
+    public static int getTotalMarkerTypesCreated() {
+        return markers.size();
+    }
 
 }
